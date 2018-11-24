@@ -15,4 +15,4 @@ test::		bags		; bags
 sets:		$(sets)		; $(CC) $(CFLAGS) -o $@ $(sets)
 bags:		$(bags)		; $(CC) $(CFLAGS) -o $@ $(bags)
 
-include ../make/Makefile.darwin1.4#$(OSTYPE)
+include ../make/Makefile.$(OSTYPE)
