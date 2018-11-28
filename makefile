@@ -8,4 +8,4 @@ all clean test::
 		fi; \
 		done
 
-include make/Makefile.darwin1.4#$(OSTYPE)
+include make/Makefile.$(OSTYPE)
